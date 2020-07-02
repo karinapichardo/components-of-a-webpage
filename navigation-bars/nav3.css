@@ -1,0 +1,120 @@
+body {
+    font-family: LUCIDA GRANDE;
+}
+
+.header {
+    margin-bottom: 0;
+    margin-top: -8px;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #dbd7d7;
+}
+
+.M {
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: 110px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: -40px;
+}
+
+h5 {
+    display: inline;
+    font-weight: 100;
+    color: green;
+    margin-left: 1200px;
+    margin-right: 18px;
+    cursor: pointer;
+    padding-top: -80px;
+}
+
+h5:hover {
+    color: black;
+}
+
+button:hover {
+    color: black;
+}
+
+button {
+    color: green;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-color: green;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    border: solid;
+    border-width: thin;
+}
+
+.menu {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #787774;
+    cursor: pointer;
+    list-style: none;
+    display: inline;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+.menu:hover {
+    color: black;
+}
+
+#logo {
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .button,
+    h5 {
+        padding-top: 10px;
+        padding-left: 200px;
+        margin: 0;
+        float: left;
+        padding-right: 35px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    ul,
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    button {
+        padding: 0px;
+        margin: 0;
+        float: left;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h5 {
+        padding-top: 10px;
+        padding-left: 200px;
+        margin: 0;
+        float: left;
+        padding-right: 35px;
+    }
+}
