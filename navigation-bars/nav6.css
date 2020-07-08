@@ -1,0 +1,52 @@
+#nav-logo {
+    margin-right: 710px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #434745;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #585c5a;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: #65bf77;
+}
+
+#nav-pro {
+    color: #53dbd0;
+}
+
+#nav-pro:hover {
+    color: #b2edd8;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-right: -25px;
+    margin-bottom: -3px;
+}
+
+button {
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    cursor: pointer;
+    font-weight: 550;
+    color: #585c5a;
+    background-color: white;
+}
+
+button:hover {
+    color: white;
+    background-color: #65bf77;
+    border-style: none;
+}
