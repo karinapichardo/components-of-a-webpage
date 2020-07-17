@@ -1,3 +1,7 @@
+* {
+    margin-top: 8px;
+}
+
 body {
     background-color: #192436;
     color: white;
@@ -27,6 +31,14 @@ ul li {
     margin-bottom: 20px;
     cursor: pointer;
 
+}
+
+li:hover {
+    color: #43bbf7;
+}
+
+button:hover {
+    background-color: #04b2de;
 }
 
 button {
