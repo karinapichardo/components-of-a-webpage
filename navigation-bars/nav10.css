@@ -1,0 +1,45 @@
+body {
+    background-color: #192436;
+    color: white;
+    font-family: arial;
+}
+
+#logo {
+    width: 35px;
+    height: 30px;
+    margin-left: 80px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.menu {
+    width: 25px;
+    height: 20px;
+    margin-left: -5px;
+    margin-right: 12px;
+}
+
+ul li {
+    margin-left: 45px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+button {
+    margin-top: 15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 18px 18px 18px 18px;
+    background-color: #43bbf7;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
