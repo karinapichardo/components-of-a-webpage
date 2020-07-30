@@ -50,10 +50,13 @@ input {
     border-color: #e6e6e6;
     border-style: solid;
     font-size: 13px;
+    outline-color: #ff0d0d;
 }
 
-/*
-input::placeholder {
-    margin-left: 50px;
+.icons {
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: -10px;
 }
-*/
